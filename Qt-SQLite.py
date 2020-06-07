@@ -1,7 +1,7 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMessageBox, QTableView
 from PyQt5.QtSql import QSqlDatabase, QSqlQuery, QSqlQueryModel
-from PyQt5.QtCore import Qt, QObject
+from PyQt5.QtCore import Qt
 
 
 def connect(app: QApplication) -> bool:
